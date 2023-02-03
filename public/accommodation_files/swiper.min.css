@@ -1,0 +1,139 @@
+/**
+* Swiper 4.2.6
+* Most modern mobile touch slider and framework with hardware accelerated trasitions
+* http://www.idangero.us/swiper/
+* Copyright 2014-2018 Vladimir kharlampidi
+* Released under the MIT License
+* Released on : May 1, 2018
+*/
+
+.swiper-container {
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+    list-style:none;
+    padding:0;
+    z-index:1;
+}
+
+.swiper-container-horizontal {  }
+
+.swiper-wrapper {
+    position:relative;
+    width:100%;
+    height:100%;
+    z-index:1;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-transition-property:-webkit-transform;
+    transition-property:-webkit-transform;
+    -o-transition-property:transform;
+    transition-property:transform, -webkit-transform;
+    -webkit-box-sizing:content-box;
+    box-sizing:content-box;
+}
+
+.swiper-container-android .swiper-slide, .swiper-wrapper {
+    -webkit-transform:translate3d(0, 0, 0);
+    transform:translate3d(0, 0, 0);
+}
+
+.swiper-slide {
+    -webkit-flex-shrink:0;
+    -ms-flex-negative:0;
+    flex-shrink:0;
+    width:100%;
+    height:100%;
+    position:relative;
+    -webkit-transition-property:-webkit-transform;
+    transition-property:-webkit-transform;
+    -o-transition-property:transform;
+    transition-property:transform;
+    transition-property:transform, -webkit-transform;
+}
+
+.swiper-slide {
+    text-align:center;
+    font-size:18px;
+    background:#fff;
+}
+
+.swiper-pagination {
+    position:absolute;
+    text-align:center;
+    -webkit-transition:.3s opacity;
+    -o-transition:.3s opacity;
+    transition:.3s opacity;
+    -webkit-transform:translate3d(0, 0, 0);
+    transform:translate3d(0, 0, 0);
+    z-index:10;
+}
+
+.swiper-pagination-bullet {
+    width:12px;
+    height:12px;
+    display:inline-block;
+    border-radius:100%;
+    background:#000;
+    opacity:.2;
+}
+
+.swiper-pagination-bullet-active {
+    opacity:1;
+    background:#007aff;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom:30px;
+    left:0;
+    width:100%;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin:0 4px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor:pointer;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    position:absolute;
+    top:50%;
+    width:62px;
+    height:62px;
+    margin-top:-31px;
+    z-index:10;
+    cursor:pointer;
+    opacity:.6;
+    background-size:62px 62px;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity:.15;
+    cursor:auto;
+    pointer-events:none;
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    right:10px;
+    left:auto;
+}
+
+.swiper-button-prev, .swiper-contianer-rtl .swiper-button-next {
+    left:10px;
+    right:auto;
+}
+
+.swiper-container .swiper-notification {
+    position:absolute;
+    left:0;
+    top:0;
+    pointer-events:none;
+    opacity:0;
+    z-index:-1000;
+}

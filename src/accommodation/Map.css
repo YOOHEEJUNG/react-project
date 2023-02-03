@@ -1,0 +1,23 @@
+/* 지도 section*/
+#map_part{
+    margin-top: 5px;
+    padding: 20px 0;
+    width: 100%;
+}
+#map_part .container{
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+}
+#map_part .text{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 8px;
+}
+#map{
+    border: 4px solid #111;
+}
+
+

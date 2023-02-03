@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+.netherlandInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.netherlandInfo .netherlandContent {
+    flex-basis: 35%;
+    padding: 20px;
+
+}
+
+.netherlandContent>h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: rgb(4, 52, 10);
+    text-shadow: 2px 2px 3px rgba(220, 220, 220, 0.495);
+}
+
+
+
+.tulipsVideo {
+    /* position: absolute; */
+    z-index: -2;
+    top: 100;
+    left: 100;
+    width: 400px;
+    height: 250px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin: 25px;
+
+
+}
+
+.zanParent1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    height: 530px;
+}
+
+
+
+.zanImg {
+    position: absolute;
+    margin-top: 55px;
+}
+
+.zanInfo {
+    flex-basis: 20%;
+    /* width: 250px; */
+    text-shadow: -1px 0px rgb(57, 57, 57, 0.588), 0px 1px rgb(57, 57, 57, 0.588), 1px 0px rgb(57, 57, 57, 0.588), 0px -1px rgba(57, 57, 57, 0.588);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    left: 820px;
+}
+
+.zanImg1 {
+    position: relative;
+    z-index: 2;
+    top: 100px;
+    left: 330px;
+    box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.377);
+
+}
+
+.zanImg2 {
+    position: relative;
+    z-index: 1;
+    top: 20px;
+    left: 230px;
+    box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.377);
+
+}
+
+
+/* 2번 -  */
+
+.zanParent2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+    height: 530px;
+}
+
+
+.zanImg4 {
+    position: absolute;
+    margin-top: 55px;
+}
+
+.zanImg4 .zanImg1 {
+    position: relative;
+    z-index: 2;
+    top: 40px;
+    left: 700px;
+    box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.377);
+
+}
+
+.zanImg4 .zanImg2 {
+    position: relative;
+    z-index: 1;
+    top: 90px;
+    left: 600px;
+    box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.377);
+
+}
+
+
+
+.zanInfo2 {
+    flex-basis: 20%;
+    /* width: 250px; */
+    text-shadow: -1px 0px rgb(57, 57, 57, 0.588), 0px 1px rgb(57, 57, 57, 0.588), 1px 0px rgb(57, 57, 57, 0.588), 0px -1px rgba(57, 57, 57, 0.588);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+    left: 320px;
+}
+
+
+
+
+
+
+
+
+/* 3번 암스테르담 강 */
+
+
+.zanParent3 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+    height: 560px;
+}
+
+.zanImg3 {
+    position: absolute;
+    margin-top: 55px;
+}
+
+.zanImg3 .zanImg1 {
+    position: relative;
+    z-index: 2;
+    top: 100px;
+    left: 250px;
+    box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.377);
+
+}
+
+.zanImg3 .zanImg2 {
+    position: relative;
+    z-index: 1;
+    top: 20px;
+    left: 160px;
+    box-shadow: 2px 2px 3px rgba(128, 128, 128, 0.377);
+
+}
+
+
+
+.zanInfo3 {
+    flex-basis: 20%;
+    /* width: 250px; */
+    text-shadow: -1px 0px rgb(57, 57, 57, 0.588), 0px 1px rgb(57, 57, 57, 0.588), 1px 0px rgb(57, 57, 57, 0.588), 0px -1px rgba(57, 57, 57, 0.588);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    left: 890px;
+}

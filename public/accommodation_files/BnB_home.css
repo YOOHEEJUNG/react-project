@@ -1,0 +1,209 @@
+/* ========================================================= */
+/* --------------------------------------------------------- */
+/*                       모바일 (공통)                        */
+/* --------------------------------------------------------- */
+/* ========================================================= */
+
+/* 공통 */
+p { margin:0; }
+section { margin-top:40px; }
+.stu_h2_title { text-align:left; font-weight:600; margin-left:2%; }
+.stu_btn { margin:10px auto; }
+.swiper-container-horizontal>.swiper-scrollbar { position:absolute; left:1%; bottom:3px; width:98%; height:5px; z-index:0; }
+.swiper-scrollbar { border-radius:10px; background:rgba(0,0,0,.05); }
+.swiper-scrollbar-drag { position:relative; top:0; left:0;width:100%; height:100%; border-radius:10px; background:rgba(0,0,0,.3); }
+
+
+
+/* topBanner 영역 */
+.stu_topBanner { position:relative; width:100%; height:240px; margin-top:0; background-color:#0f667a; overflow:hidden; }
+.stu_topBanner .stu_inner_wrap { width:100%; height:100%; }
+.stu_topBanner .viewport .textArea { position:absolute; top:30px; width:100%; text-align:center; z-index:1; }
+.stu_topBanner .viewport .type1 { font-size:20px; font-weight:300; color:#fff; }
+.stu_topBanner .viewport .type2 { font-size:28px; font-weight:600; color:#f0dc98; }
+.stu_topBanner .viewport img { position:absolute; width:100%; height:auto; top:-85%; right:-100%; bottom:-115%; left:-100%; margin:auto; }
+
+
+
+/* 도시 선택 영역 */
+.stu_selectCity { margin-top:0; padding:30px 0; background:#f5f5f5; }
+.stu_selectCity .swiper-container { position:relative; height:145px; margin:15px 0 0 2%; overflow:hidden; z-index:0; }
+.stu_selectCity li { display:inline-block; width:auto; margin:0 4px; background-color:transparent; }
+.stu_selectCity li:first-child { margin-left:0; }
+.stu_selectCity li a { float:left; width:120px; margin:0 4px 4px 0; padding:0; text-align:left; border:1px solid #e5e5e5; border-radius:3px; box-shadow:rgba(0,0,0,.1) 0 2px 4px 0; background:#fff; overflow:hidden; }
+.stu_selectCity .imgArea { position:relative; width:100%; padding-top:56.25%; background:#f7f7f7; overflow:hidden; }
+.stu_selectCity .imgArea img { position:absolute; top:-100%; right:-100%; bottom:-100%; left:-100%; width:100%! important; height:auto; margin:auto; }
+.stu_selectCity .textArea { min-height:55px; margin:0; padding:10px; font-size:15px; line-height:18px; font-weight:600; word-wrap:break-all; white-space:wrap; color:#222; }
+.stu_selectCity .ct-toggle-btn { display:none; }
+
+
+
+/* 도시별 인기숙소 */
+.stu_bestPrd { margin-top:0; padding:30px 0 0; }
+.stu_bestPrd .prd-viewport { display:flex; flex-flow:row wrap; justify-content:flex-start; position:relative; margin-top:15px; }
+.stu_bestPrd li { position:relative; align-items:center; flex-basis:46%; width:46%; margin:0 2% 20px; }
+.stu_bestPrd li a { float:left; width:100%; text-align:left; overflow:hidden; }
+.stu_bestPrd li.expand { display:none; }
+.stu_bestPrd .imgArea { position:relative; width:100%; padding-top:64%; border-radius:3px; overflow:hidden; }
+.stu_bestPrd .imgArea .stu_band { position:absolute; bottom:0; left:0; min-height:26px; padding:2px 8px; font-size:13.5px; font-weight:300; letter-spacing:0; color:#fff; z-index:1; }
+.stu_bestPrd .imgArea img { position:absolute; top:-100%; right:-100%; bottom:-100%; left:-100%; width:100%! important; height:auto; margin:auto; }
+.stu_bestPrd .textArea { padding-top:8px; }
+.stu_bestPrd .type1 { height:16px; max-height:16px; margin-bottom:2px; font-size:12.5px; line-height:16px; font-weight:400; white-space:nowrap; word-wrap:break-word; color:#666;}
+.stu_bestPrd .type2 { display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; max-height:36px; margin:0; font-size:15px; line-height:18px; font-weight:600; word-wrap:break-word; color:#222; }
+.stu_bestPrd .type3 { float:left; margin:8px 0 2px; font-size:15px; line-height:18px; font-weight:300; word-wrap:break-word; color:#666; }
+.stu_bestPrd .type3 .price { display:inline; margin:0; }
+.stu_bestPrd .type3 .unit { display:inline-block; margin-left:6px; }
+.stu_bestPrd .ratingBox { display:block; vertical-align:top; white-space:nowrap; }
+.stu_bestPrd .ratingBox:before { content:""; display:block; clear:both; visibility:hidden; height:0; line-height:0; }
+.stu_bestPrd .ratingBox p { display:inline-block; margin-left:5px; font-size:12px; line-height:11px; font-weight:300; color:#666; }
+.stu_bestPrd .stu_icon { display:inline-block; width:12px; height:11px; margin-right:-4px; padding:0; background:url(../images/star01.png) -24px 0 no-repeat; background-size:60px; }
+.stu_bestPrd .stu_icon.max { background-position:0 0; }
+.stu_bestPrd .stu_icon.half { background-position:-12px 0; }
+.stu_bestPrd .stu_icon.new { width:24px; background-position:-36px 0; }
+.stu_bestPrd .stu_icon.none { display:none; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================= */
+/* --------------------------------------------------------- */
+/*                    태블릿 (가로 및 세로)                    */
+/* --------------------------------------------------------- */
+/* ========================================================= */
+
+@media (min-width:620px){
+
+/* 공통 */
+.swiper-container-horizontal>.swiper-scrollbar { display:none; }
+
+/* topBanner 영역 */
+.stu_topBanner { height:260px; }
+.stu_topBanner .viewport .textArea { top:50px; left:7%; text-align:left; }
+.stu_topBanner .viewport .type1 { font-size:22px; }
+.stu_topBanner .viewport .type2 { font-size:32px; }
+.stu_topBanner .viewport img { width:500px; top:10px; right:7%; bottom:0; left:auto; }
+
+
+
+/* 도시 선택 영역 */
+.stu_selectCity { padding:30px 0 40px; }
+.stu_selectCity .swiper-container { float:left; width:88%; height:auto; margin:15px 2% 0; overflow:visible; }
+.stu_selectCity .swiper-wrapper { flex-flow:row wrap; }
+.stu_selectCity li { width:15.4%; margin:0 0.76% 10px; }
+.stu_selectCity li:nth-child(6n+1) { margin-left:0; }
+.stu_selectCity li:nth-child(6n) { margin-right:0; }
+.stu_selectCity li a { width:100%; }
+.stu_selectCity li.stu_hide { display:none; }
+.stu_selectCity .imgArea { padding-top:70%; }
+.stu_selectCity .imgArea img { width:100%; height:100%; }
+.stu_selectCity .textArea { min-height:52px; padding:8px 10px; font-size:14px; }
+.stu_selectCity .ct-toggle-btn-wrap { float:left; position:relative; width:6%; height:0; padding-top:6%; margin-top:18px; border:1px solid #ccc; border-radius:50%; background:#fff; cursor:pointer; }
+.stu_selectCity .ct-toggle-btn-wrap .ct-toggle-btn { display:block; position:absolute; top:50%; left:50%; width:44px; height:20px; transform:translate(-50%, -50%); background:url(../images/stu_icon.png) -132px -110px no-repeat; background-size:352px; }
+.stu_selectCity .ct-toggle-btn-wrap .ct-toggle-btn.on { background-position:-132px -88px; }
+
+
+
+
+
+
+
+/* 도시별 인기숙소 */
+.stu_bestPrd li { flex-basis:22.5%; width:22.5%; margin:0 1% 24px; }
+.stu_bestPrd li:nth-child(4n+1) { margin-left:2%; }
+.stu_bestPrd li:nth-child(4n+4) { margin-right:2%; }
+.stu_bestPrd li.expand { display:block; }
+.stu_bestPrd .imgArea .stu_band { font-size:14px; }
+.stu_bestPrd .ratingBox p { font-size:12.5px; }
+
+
+
+
+
+/* bestPrice 영역 */
+.stu_bestPrice .swiper-container { width:98%; }
+.stu_bestPrice li { width:28%; }
+.stu_bestPrice li:first-child { margin:0 1%; }
+.stu_band { font-size:13px; }
+.stu_caption { height:90px; font-size:14px; }
+.stu_caption .stu_name { font-size:15.5px; }
+.stu_info .stu_price { font-size:14px; }
+.stu_info .stu_price span { font-size:15.5px; }
+.stu_info .stu_total { margin:0 0 0 5px; font-size:14px; }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================= */
+/* --------------------------------------------------------- */
+/*                    PC 웹 (가로 및 세로)                    */
+/* --------------------------------------------------------- */
+/* ========================================================= */
+
+@media (min-width:1024px){
+
+/* 공통 */
+.stu_h2_title { margin-left:0; }
+
+
+
+/* topBanner 영역 */
+.stu_topBanner { height:300px; }
+.stu_topBanner .stu_inner_wrap { max-width:1100px; min-width:960px; }
+.stu_topBanner .viewport .textArea { top:65px; left:2%; }
+.stu_topBanner .viewport .type1 { font-size:28px; }
+.stu_topBanner .viewport .type2 { font-size:38px; }
+.stu_topBanner .viewport img { width:700px; top:10%; right:2%; bottom:-10%; }
+
+
+
+/* 도시 선택 영역 */
+.stu_selectCity .swiper-container { width:94%; margin:20px 0 0; }
+.stu_selectCity li {  }
+.stu_selectCity .imgArea { padding-top:56.25%; }
+.stu_selectCity .imgArea img { width:100%; height:auto; }
+.stu_selectCity .textArea { min-height:60px; padding:8px 12px; font-size:16px; line-height:22px; }
+.stu_selectCity .ct-toggle-btn-wrap { width:4.5%; padding-top:4.5%; margin-top:22px; margin-left:1.5%; }
+
+
+
+/* 도시별 인기숙소 */
+.stu_bestPrd { padding:40px 0 0; }
+.stu_bestPrd li { flex-basis:23.875%; width:23.875%; margin:0 0.75% 24px; }
+.stu_bestPrd li:nth-child(4n+1) { margin-left:0; }
+.stu_bestPrd li:nth-child(4n+4) { margin-right:0; }
+.stu_bestPrd .imgArea .stu_band { font-size:15px; }
+.stu_bestPrd .type1 { font-size:14px; }
+.stu_bestPrd .type2 { max-height:42px; font-size:16.5px; line-height:21px; }
+.stu_bestPrd .type3 { font-size:16.5px; }
+.stu_bestPrd .ratingBox p { font-size:14px; }
+
+
+}

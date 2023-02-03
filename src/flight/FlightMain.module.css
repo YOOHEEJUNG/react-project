@@ -1,0 +1,251 @@
+
+.backgroundImg{
+    background-image: url(./flight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 60%;
+    height: 550px;
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+
+.flightContents{
+    width: 100%;
+    max-width: 1096px;
+    text-align: center;
+    flex-direction: column;
+    margin: 40px 0px;
+
+}
+
+.flightContents h1{
+    color: white;
+    font-size: 50px;
+    
+}
+
+.chooseBg{
+    background-color: #02122C;
+    padding: 28px 24px;
+    border-radius: 0.25rem;
+    max-height: 218px;
+
+}
+
+.radioWrap{
+    position: relative;
+    text-align: left;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.radioWrap2{
+   margin-right: 20px;
+}
+
+.destinationWrap{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+
+}
+
+.inputStyle{
+    padding: 8px 16px;
+    height: 42px;
+    border: 0.0625rem solid #b2b2bf;
+    width: 100%;
+    font-size: 15px;
+}
+
+.inputStyle2{
+    padding: 0px 40px 0px 16px;
+    width: 100%;
+    height: 42px;
+    border: 0.0625rem solid #b2b2bf;
+    background-color: white;
+    text-align: left;
+    background: #fff url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4Ij48c3R5bGU+PC9zdHlsZT48cGF0aCBkPSJNMTYuNTM3IDguMjVINy40NjNhMS4zNTggMS4zNTggMCAwMC0xLjExIDIuMjUxbDQuMzU0IDQuNzdhMS41MyAxLjUzIDAgMDAyLjE4NC4wNGw0LjcxOC00Ljc3YTEuMzU3IDEuMzU3IDAgMDAtMS4wNzItMi4yOTF6IiBmaWxsPSIjNDQ0NTYwIi8+PC9zdmc+) no-repeat right 1rem center;
+    cursor: pointer;
+}
+
+.searchWrap {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.searchBtn{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0.5rem 1rem;
+    border: 0;
+    border-radius: 0.375rem;
+    background-image: linear-gradient(-180deg,#00a698,#00a698);
+    background-image: linear-gradient(-180deg,var(--bpk-button-primary-gradient-start-color,#00a698),var(--bpk-button-primary-gradient-end-color,#00a698));
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: none;
+    cursor: pointer;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    color: #fff;
+    color: var(--bpk-button-primary-text-color,#fff);
+    background-color: #00a698;
+    background-color: var(--bpk-button-primary-background-color,#00a698);
+    font-size: 1.1875rem;
+    font-size: var(--bpk-button-font-size,1.1875rem);
+}
+
+
+
+
+/* 모달창을 화면 중앙. 최상단에 노출 */
+.container {
+    /* 모달창 크기 */
+    width: 380px;
+    
+  
+    /* 최상단 위치 */
+    z-index: 999;
+    
+    /* 중앙 배치 */
+    /* top, bottom, left, right 는 브라우저 기준으로 작동한다. */
+    /* translate는 본인의 크기 기준으로 작동한다. */
+    position: absolute;
+    top: 350%;
+    left: -50%;
+    transform: translate(0%, 0%);
+    
+  
+    /* 모달창 디자인 */
+    background-color: white;
+    border: 0.0625rem solid #dddde5;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px 0 rgb(37 32 31 / 100%);
+    padding: 16px;
+
+    color: #111236;
+    font-size: 18px;
+    
+  }
+
+  .modalSelect{
+    display: inline-block;
+    width: 100%;
+    height: 2.25rem;
+    padding: 0.375rem 2rem 0.375rem 0.5rem;
+    margin: 8px 0px;
+    border: 0.0625rem solid #b2b2bf;
+    border-radius: 0.25rem;
+    background: #fff url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4Ij48c3R5bGU+PC9zdHlsZT48cGF0aCBkPSJNMTYuNTM3IDguMjVINy40NjNhMS4zNTggMS4zNTggMCAwMC0xLjExIDIuMjUxbDQuMzU0IDQuNzdhMS41MyAxLjUzIDAgMDAyLjE4NC4wNGw0LjcxOC00Ljc3YTEuMzU3IDEuMzU3IDAgMDAtMS4wNzItMi4yOTF6IiBmaWxsPSIjNDQ0NTYwIi8+PC9zdmc+) no-repeat right 0.5rem center;
+    background-size: 1.125rem;
+    color: #111236;
+    line-height: 1.375rem;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  .updownBtn{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    border: 0;
+    background-color: white;
+    border: 2px solid #b2b2bf;
+    border-radius: 50%;
+    color: #0770e3;
+    cursor: pointer;
+  }
+  .updownCount{
+    width: 50px;
+    display: inline-block;
+    padding: 0.1rem 0;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 25px;
+    line-height: 2rem;
+    font-weight: 300;
+  }
+
+  .btn1{
+    font-size: 18px;
+    float: right;
+    padding: 0;
+    border: 0;
+    background-color: initial;
+    text-decoration: none;
+    cursor: pointer;
+    color: #0770e3;
+    font-weight: 500;
+
+  }
+  
+  /* 모달창 내부 X버튼 */
+  .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    border: 0;
+    background-color: white;
+    border: 1px solid #b2b2bf;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+
+.div1 {
+ height: 40px;
+ width: 100%;
+ background-color: white;
+ bottom: 0px;
+ position: absolute;
+
+ fill: #fff;
+}
+
+
+.commentWrap{
+    width: 100%;
+    max-width: 1096px;
+    text-align: center;
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.commentWrap1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+   
+    
+}
+
+.comment{
+    width: 33.33%;
+    font-size: 13px;
+    padding: 0px 30px;
+    font-weight: 700;
+    position: relative;
+}
+
+.pic{
+    position: absolute;
+    left: 0px;
+    width: 25px;
+}

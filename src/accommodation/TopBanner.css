@@ -1,0 +1,74 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.stu_topBanner{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.inner_wrap{
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.inner_wrap .textArea{
+    top: 70px;
+    left: 30px;
+    position: absolute;
+    z-index: 1;
+}
+.inner_wrap .textArea p:first-child{
+    font-size: 28px;
+    font-weight: 300;
+    color: #fff;
+}
+.inner_wrap .textArea .type2{
+    font-size: 38px;
+    font-weight: 600;
+    color: #f0dc98;
+}
+.inner_wrap .viewPoint img{
+    position: absolute;
+    top: 0;
+    right: 2%;
+    width: 700px;   
+    height: auto; /* height에 auto를 넣으면 원본 비율에 맞게 높이가 조정됨 */
+}
+.search{
+    position: absolute;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    bottom: 0;
+    left: 50%;
+    width: 900px;
+    transform: translate(-50%, 50%);
+}
+.search_input{
+   display: block;
+   height: 50px;
+   line-height: 50px;
+   padding: 0 0 0 20px;
+   font-size: 15px;
+   background: #fff;
+   text-decoration: none;
+   color: #666;
+}
+.search_input:hover{
+    text-decoration: underline;
+}
+.search_input i{
+    display: inline-block;
+    width: 20.4px;
+    height: 20.4px;
+    margin: 0 4px 0 0;
+    background-position: -57.8px -30.6px;
+    background-size: 217.6px;
+    vertical-align: -4px;
+    background-image: url(http://d3b39vpyptsv01.cloudfront.net/0/0/1548062231191VwAkOaUebn.png);
+    background-repeat: no-repeat;
+}
+
+

@@ -1,0 +1,72 @@
+* {margin: 0; padding:0;   list-style: none; box-sizing: border-box;}
+
+
+
+.travelerWrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.travelerBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.travelerBox1{
+    flex-basis: 25%;
+    display: flex; 
+    flex-direction: column;
+    margin:13px;
+    width: 255px;
+    padding-bottom: 20px;
+    border: 0.5px solid rgba(67, 79, 68, 0.125);
+    background-color:  rgba(255, 255, 255, 0.773);
+    box-shadow: 2PX 2PX 6PX rgba(128, 128, 128, 0.218);
+}
+
+
+.travelerBox1 div >img{
+    width: 255px;
+    height: 140px;
+    transition: all 0.5s linear;
+}
+
+.travelerBox1 div{
+    overflow: hidden;
+}
+
+.travelerBox1 div >img:hover{
+    transform: scale(1.2);
+}
+
+.travelerContent1{
+    margin:10px;
+    padding:10px;
+}
+
+.travelerContent1 > h3{
+    color:rgba(3, 39, 18, 0.912);
+    font-size: 17px;
+    /* font-style: italic; */
+    margin-bottom: 5px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+
+}
+ 
+.travelerContent1 div > span{
+    color: rgb(63, 62, 62);
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 490;
+    font-size: 13px;
+    /* font-style: italic; */
+
+}
+
+

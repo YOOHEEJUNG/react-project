@@ -1,0 +1,81 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.SelectCity{
+    width: 100%;
+    padding: 30px 0 40px 0;
+    background-color: #f5f5f5;
+}
+.SelectCity .inner_wrap{
+    max-width: 1100px;
+}
+.SelectCity .inner_wrap h2{
+    font-size: 22px;
+    margin: 5px 0 10px;
+}
+.SelectCity .swiper-container{
+    margin-top: 20px;
+    width: 94%;
+    /* 버튼 포지션 고정 */
+    position: relative;
+}
+.SelectCity .swiper-wrapper{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.SelectCity .swiper-wrapper li{
+
+    color: #555;
+    padding: 10px;
+    width: 15.4%;
+
+    /* border: 1px solid #000; */
+    flex-basis: 16%;
+}
+.swiper-wrapper a{
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px black;
+}
+.swiper-wrapper a:hover{
+    text-decoration: underline;
+}
+.SelectCity .thumb_wrap{
+    
+}
+.SelectCity .imgArea{
+
+}
+.SelectCity .imgArea img{
+    width: 100%;
+}
+
+.text_box{
+    padding: 2px 12px 12px 8px;
+    font-size: 16px;
+    font-weight: 1000;
+}
+.ct_button_wrap{
+    position: absolute;
+    top: 10px;
+    right: -50px;
+}
+.ct_button_wrap .ct_button{
+    border: none;
+}
+.unActive{
+    display: none;
+}
+.ct_buttons_icon{
+    border-color: #3498db;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    transition: all 150ms ease-in-out;
+    
+}
+.ct_buttons_icon:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}

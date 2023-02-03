@@ -1,0 +1,35 @@
+
+ /* 전체를 감싸고 있는 div */
+.destinationContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+
+
+}
+
+/* 태그 감싸고 있는 ul */
+.destinationBox {
+  
+ 
+  display: flex;
+  justify-content: center;
+}
+
+/* 각 태그 */
+.destinationTag {
+
+  margin: 0 5px;
+  padding: 10px;
+  color: rgb(51, 90, 56);
+  cursor: pointer;
+
+  font-size: 17px;
+  font-weight: 620;
+  font-style: italic;
+
+}
+
+.destinationTag:hover {
+  color:rgba(134, 97, 4, 0.856);
+}

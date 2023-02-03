@@ -1,0 +1,106 @@
+*{padding: 0; margin: 0; list-style: none;}
+
+.header{
+    margin: 0 auto;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+a{
+    text-decoration: none;
+    color: #666;
+}
+
+li{ 
+    padding-right: 10px;
+}
+
+.header_box{
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px 0 30px 0;
+}
+
+.header_box .first_content{
+    flex-grow: 33%;
+}
+
+.header_box span{
+    flex-grow: 33%;
+}
+
+.login{
+    flex-grow: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.join{
+    flex-grow: 33%;
+    border: 1px solid #3ad195;
+    padding: 12px 20px;
+    border-radius: 3px;
+}
+
+.join a{
+    color: #2cbb8c;
+}
+
+.login p {
+    flex-grow: 33%;
+    margin-left: 30px;
+    font-size: 19px;
+}
+
+.header_box .first_content p {
+    color: red;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.header_box .first_content h3{
+    color: #444;
+    font-size: 23px;
+}
+
+.bannerBox{
+    box-sizing: border-box;
+    border-top: 1px solid #e5e5e5;
+    position: relative;
+}
+
+.mainBanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.mainBanner p{
+    flex-grow: 25%;
+    font-size: 23px;
+    padding: 15px 120px 15px 0;
+}
+
+.mainBanner p a:hover{
+    font-weight: bold;
+    border-bottom: 3px solid #3ad195;
+}
+
+.search_icon{
+    width: 30px;
+    height: 30px;
+}
+.search_icon img{
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    position: absolute;
+    height: 100%;
+    padding: 10px;
+    top: 0;
+    max-width: 100%;
+}

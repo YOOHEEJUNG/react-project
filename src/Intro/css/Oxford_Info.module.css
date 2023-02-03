@@ -1,0 +1,177 @@
+* {margin: 0; padding:0;   list-style: none; box-sizing: border-box;}
+
+.contentWrap{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 40px;
+    
+}
+
+.contentBox{
+    width:1000px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* background-color: rgba(203, 206, 204, 0.633); */
+
+}
+
+.contentBox div {
+    flex-basis: 50%;
+}
+
+.contentBox div >img{
+    width: 650px;
+    height: 320px;
+}
+
+.contentText{
+  width: 600px;
+}
+
+
+.contentTitle{
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.073);
+    padding:6px;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    /* width: 400px; */
+    
+ 
+}
+
+.contentInfo{
+    margin-top: 20px;
+    color: rgb(63, 62, 62);
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 450;
+}
+
+/* 강력 추천 */
+.highlyWrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.highlyBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.highlyBox1{
+    flex-basis: 30%;
+    display: flex; 
+    flex-direction: column;
+    width: 355px;
+    margin:30px;
+    background-color: rgba(6, 89, 20, 0.084);
+}
+
+.highlyBox1 div{
+    flex-basis: 50%;
+}
+
+.highlyBox1 div >img{
+    width: 355px;
+    height: 230px;
+}
+
+.highlyContent1{
+    margin:20px;
+}
+
+.highlyContent1 > h3{
+    color:rgba(24, 24, 24, 0.912);
+    font-size: 17px;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 990;
+
+}
+ 
+.highlyContent1 div > span{
+    color: rgb(63, 62, 62);
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 490;
+    font-size: 14px;
+}
+
+
+/*런던, 교외  */
+
+.highlyWrap1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.highlyBox3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.highlyBox2{
+    flex-basis: 25%;
+    display: flex; 
+    flex-direction: column;
+    margin:13px;
+    border: 0.5px solid rgba(67, 79, 68, 0.122);
+    background-color: rgba(255, 255, 255, 0.656);
+}
+/* 
+.highlyBox2 div{
+    flex-basis: 50%;
+} */
+
+
+.highlyBox2 div >img{
+    width: 280px;
+    height: 200px;
+    transition: all 0.5s linear;
+}
+
+.highlyBox2 div{
+    overflow: hidden;
+}
+
+.highlyBox2 div >img:hover{
+    transform: scale(1.2);
+}
+
+.highlyContent2{
+    margin:10px;
+}
+
+.highlyContent2 > h3{
+    color:rgba(24, 24, 24, 0.912);
+    font-size: 17px;
+    font-style: italic;
+    margin-bottom: 3px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 990;
+
+}
+ 
+.highlyContent2 div > span{
+    color: rgb(63, 62, 62);
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: 490;
+    font-size: 14px;
+}
+
+

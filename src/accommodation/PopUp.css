@@ -1,0 +1,57 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.popUp{
+    width: 800px;
+    border: 1px solid #949494 ;
+    margin: 20px 0 0 20px;
+    background: url(./img/world.png) 100% 0 no-repeat;
+    /* 팝업css 먹이기 */
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 3;
+    background-color: white;
+}
+.popup_close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    font-size: 25px;
+    width: 30px;
+    height: auto;
+    color: white;
+    cursor: pointer;
+}
+.popUp .popUp_innerWrap{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.popUp .inner_part2 h2,p{
+    margin-bottom: 10px;
+}
+.popUp .inner_part2 ul{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.popUP .inner_part2 ul li{
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+.popUp .inner_part2 ul li a{
+    padding: 4px;
+    border: 1px solid;
+    border-radius: 8px;
+    background: #006af5;
+    color: white;
+}
+.popUp .inner_part2 .check_wrap{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
